@@ -4,16 +4,21 @@ main {
     place-items: center;
     background-color: rgb(233, 231, 229);
 }
-
 nav {
     font-weight: bold;
     font-size: 1rem;
+}
+.display-2{
+    margin-top: 2%;
 }
 /* nav */
 #nombre {
     margin-left: 1%;
 }
-
+.nav-item{
+    display: flex;
+    align-items: center;
+}
 #navbarText {
     display: flex;
     justify-content: space-evenly;
@@ -53,6 +58,7 @@ nav {
     text-align: center;
     margin-top: 3%;
     margin-bottom: 5%;
+    box-shadow: 5px 5px 10px;
 }
 
 li {
@@ -66,7 +72,7 @@ table td {
 }
 
 td img {
-    border-radius: 10%;
+    border-radius: 3%;
 }
 
 th {
@@ -76,13 +82,57 @@ th {
 /* fotos */
 #carruselito {
     width: 60%;
+    box-shadow: 5px 5px 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-.sitio p{
-    display:inline-block ;
-    vertical-align: middle;
-    font-size: 1.3rem;
+.sitios{
+    width: 50%;
+    box-shadow: 5px 5px 8px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    border-radius: 4%;
 }
 .sitio{
+    box-shadow: 5px 5px 10px  ;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    padding: 1%;
+    background-color: rgb(241, 232, 219);
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    border-radius: 7%;
+}
+.sitio img{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 80%;
+}
+.sitio p{
+    font-size: 1.3rem;
+}
+.table-responsive{
     margin-top: 2%;
     margin-bottom: 2%;
+}
+.actividades{
+    width: 60%;
+    box-shadow: 5px 10px 10px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.sitio img:hover{
+    transform: scale(1.1);
+}
+footer >div{
+    color: white;
+}.display-2{
+    text-shadow: 1px 1px 20px;
 }

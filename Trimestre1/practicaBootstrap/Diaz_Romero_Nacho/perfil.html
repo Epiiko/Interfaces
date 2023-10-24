@@ -29,7 +29,7 @@
                         <a class="nav-link text-white" href="#sitios_interes">Lugares de interes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#actividades">Actividades recientes</a>
+                        <a class="nav-link text-white" href="#actividades_recientes">Actividades recientes</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#carruselito">Galeria de fotos</a>
@@ -40,6 +40,7 @@
     </header>
     <main>
         <!-------------------Sobre mi------------------------------>
+        <h2 id="sitios_interes" class="display-2">Cartas personales</h2>
         <div id="divpresent">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="./img/yo.jpg" alt="Card image cap">
@@ -61,7 +62,7 @@
                         simulador
                         de guerra muy realista.
                     </p>
-                    <a href="#sitios_interes" class="btn btn-primary">Twitch</a>
+                    <a href="https://www.twitch.tv/" class="btn btn-primary">Twitch</a>
                 </div>
             </div>
         </div>
@@ -143,7 +144,8 @@
         </div>
         <!----------------------------Sitios de Interes------------------------------------->
         <h2 id="sitios_interes" class="display-2">Sitios de interes</h2>
-        <div class="sitios_interes">
+        <div class="sitios">
+
             <!--Git-->
             <div class="sitio">
                 <h3 class="display-5">GitHub</h3>
@@ -168,31 +170,36 @@
             </div>
         </div>
         <!----------------------Actividades recientes----------------------------->
-        <h2 id="sitios_interes" class="display-2">Actividades recientes</h2>
-        <div class="actividades_recientes">
-            <table>
+        <h2 id="actividades_recientes" class="display-2">Actividades recientes</h2>
+        <div class="table-responsive actividades">
+            <table class="table table-hover table-dark">
                 <thead>
                     <tr>
-                        <th>Dia</th>
-                        <th>Actividades</th>
+                        <th scope="col">Dia</th>
+                        <th scope="col">Actividad</th>
+                        <th scope="col">Nota</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Sabado</td>
-                        <td>Furbito con los zagalitos</td>
-                    </tr>
-                    <tr>
-                        <td>Domingo</td>
-                        <td>Karts en campillos</td>
+                        <td>Ir a jugar al furbito con los zagales</td>
+                        <td>8/10</td>
                     </tr>
                     <tr>
                         <td>Viernes</td>
-                        <td>Entrenamiento de simracing</td>
+                        <td>Ir a los karts de campillos</td>
+                        <td>10/10</td>
                     </tr>
                     <tr>
                         <td>Domingo</td>
-                        <td>Bancar al Málaga con todo</td>
+                        <td>Bancar al Málaga C.F con todo</td>
+                        <td>10/10</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>Competición de SimRacing en F1 2023</td>
+                        <td>¿?</td>
                     </tr>
                 </tbody>
             </table>
@@ -245,5 +252,10 @@
         </div>
     </main>
 </body>
+<footer class="bg-dark text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Nacho Díaz (Epiiko):
+    </div>
+</footer>
 
 </html>
